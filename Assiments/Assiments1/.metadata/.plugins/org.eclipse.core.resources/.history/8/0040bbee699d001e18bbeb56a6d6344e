@@ -1,0 +1,28 @@
+
+
+
+#include <stdio.h>
+
+int main() {
+
+	int num;
+	printf ("enter the number\n");
+
+	scanf("%d",&num);
+
+	if (num>0){
+		printf (" %d the number is posative\n",c);
+	}
+	else if (num = 0){
+		printf (" %d the number equal zero\n",c);
+	}
+	else  {
+			printf (" %d the number is negative\n",c);
+		}
+
+
+
+
+	return 0;
+}
+

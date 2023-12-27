@@ -1,0 +1,5 @@
+10:55:46 **** Incremental Build of configuration Debug for project 4 ****
+Info: Internal Builder is used for build
+gcc -o 4.exe 4.o 
+Info: Nothing to build for 4
+Info: Nothing to build for 4

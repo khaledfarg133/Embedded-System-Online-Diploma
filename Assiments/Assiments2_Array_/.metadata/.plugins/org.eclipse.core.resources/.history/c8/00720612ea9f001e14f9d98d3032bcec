@@ -1,0 +1,44 @@
+
+
+#include <stdio.h>
+
+int main (){
+
+	//______________________________________Deffine the variables_______________________________________________//
+
+	char arr1[30],c;
+	int i,count=0 ;
+
+	//___________________________________________Enter the string ______________________________________________//
+
+	printf("Enter the string");
+	fflush (stdout) ; fflush(stdin);
+	gets(arr1);
+
+	printf("%s\n",arr1);
+
+	//________________________________Enter the number of element of the array________________________________________//
+
+	printf("Enter the charchter that you need to find");
+	fflush (stdout) ; fflush(stdin);
+	scanf("%c", &c);
+
+	//__________________________________________ Compare Operation________________________________________//
+
+		for (i=0 ; i<sizeof(arr1) ;i++){
+			if(arr1[i]==c){
+				count++;
+			}
+			printf ("the number of repeated of (%c) is: %d ",c,count);
+
+		}
+		count = 0 ;
+
+
+
+
+
+	return 0 ;
+
+}
+
