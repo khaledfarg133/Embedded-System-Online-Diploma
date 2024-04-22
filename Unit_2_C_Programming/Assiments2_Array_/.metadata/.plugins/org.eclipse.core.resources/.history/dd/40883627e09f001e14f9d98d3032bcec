@@ -1,0 +1,23 @@
+
+
+#include <stdio.h>
+
+int main (){
+
+	//______________________________________Deffine the variables_______________________________________________//
+
+	int element,num,i ;
+	int arr1[30];
+
+	//________________________________Enter the number element of the array________________________________________//
+
+		printf("Enter the number of the element");
+		//fflush (stdout) ; fflush(stdin);
+		scanf("%d", &num);
+
+
+
+
+
+return 0 ;
+}

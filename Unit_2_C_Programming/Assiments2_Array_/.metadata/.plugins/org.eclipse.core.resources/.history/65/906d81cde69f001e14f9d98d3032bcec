@@ -1,0 +1,16 @@
+
+
+#include <stdio.h>
+
+int main (){
+
+	//______________________________________Deffine the variables_______________________________________________//
+
+	int element,num,i ;
+	int arr1[30];
+	//___________________________________________Enter the string ______________________________________________//
+
+	printf("Enter the string");
+	fflush (stdout) ; fflush(stdin);
+	gets(arr1);
+

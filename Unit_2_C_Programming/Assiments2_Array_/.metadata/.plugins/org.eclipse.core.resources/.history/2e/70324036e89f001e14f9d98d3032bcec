@@ -1,0 +1,32 @@
+
+
+#include <stdio.h>
+
+int main (){
+
+	//______________________________________Deffine the variables_______________________________________________//
+
+	int arr1[30];
+	char c;
+	//___________________________________________Enter the string ______________________________________________//
+
+	printf("Enter the string");
+	fflush (stdout) ; fflush(stdin);
+	gets(arr1);
+
+
+	printf("%s\n",arr1);
+
+	//________________________________Enter the number of element of the array________________________________________//
+
+	printf("Enter the number of the element");
+	fflush (stdout) ; fflush(stdin);
+	scanf("%c", &c);
+
+
+
+
+	return 0 ;
+
+}
+

@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main (){
+	//______________________________________Deffine the variables_______________________________________________//
+
+	int element,num,i,location ;
+	int arr1[30];
+
+
+	//________________________________Enter the number element of the array________________________________________//
+
+	printf("Enter the number of the element");
+		fflush (stdout) ; fflush(stdin);
+		scanf("%d", &num);
+
+	//_______________________________________________enter the element in the array_______________________________________________//
+
+			printf("the number of element in the array is%d\n",num);
+
+			printf("enter the element in the array\n");
+
+			for (i=0 ; i<num ; i++){
+				printf("entera[%d]:",i);
+				fflush(stdout) ; fflush(stdin);
+				scanf("%d",&arr1[i]);
+			}
+
+			//_________________________________________ Print the element of the array_______________________________________________//
+
+
+			printf("the element of the array is\n");
+			for (i=0 ; i<num ; i++){
+					printf("\narr1[%d]=",i);
+
+					printf("%d\n",arr1[i]);
+			}
+
+
+
+
+
+
+		return 0 ;
+}
+

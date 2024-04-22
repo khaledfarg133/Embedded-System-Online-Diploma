@@ -1,0 +1,26 @@
+//EXI: Prime Numbers Between two Intervals by Making User-defined Function
+
+#include<stdio.h>
+int check_prime(int num);
+int main(){
+int n1,n2,i,f1ag;
+
+printf( "Enter two numbers(intervals) :");
+scanf("%d %d" ,&nl, &n2);
+printf("Prime numbers between %d and %d are : ",n1,n2)
+for(i=nl+l ; i<n2; ++i ){
+flag=check_prime (i) ;
+printf(flag==0);
+}
+return 0;
+}
+%d are:
+ni,
+n2);
+int check_prime(int num) / * User-defined function to check prime numbel
+int j, flag=e;
+if(num%j==e){
+return
+flag-I;
+break;
+flag;
